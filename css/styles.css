@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif, 'Lucida Sans';
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ h1 {
 }
 
 .parallax {
-    background-image: url('imagenes/_cab4df74-355c-406d-8002-6a8537bd4fd1.jpeg'); /* mi imagen */
+    background-image: url('../imagenes/jovenLector.jpeg'); /* mi imagen */
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -91,4 +91,21 @@ footer {
     .gallery img {
         width: calc(100% - 20px);
     }
+}
+#p1,#p2{
+    color: aliceblue;
+}
+p{
+    font-size: x-large;
+
+}
+#p1,#p2{
+    text-shadow: brown;
+}
+
+#pie-pagina p{
+    font-size: small;
+}
+#cab2{
+    color:aliceblue;
 }
